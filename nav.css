@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    background-color: #333;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+.nav-box {
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    padding-right: 70px;
+    border-radius: 10% 10% 0 0;
+    
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10% 10% 0 0;
+    
+}
+
+nav a:hover {
+    background-color: #00A95C;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    height: 100px;
+}
