@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FBF7eD;
+    font-family: sans-serif;
+    height: auto;
+}
+
+img {
+    width: 90px;
+    margin: 2px auto 5px 2px;
+}
+
+
+main {
+    margin-top: 100px;
+    background-color: rgba(192, 189, 189, 0.87);
+    height: 100%;
+}
+
+#grid-box1 {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 400px auto 400px;
+    grid-auto-rows: 400px auto;
+    /* height: 1102px; */
+   
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding: 15px;
+    background-color: rgba(51, 51, 51, 0.753);
+    width: 300px;
+    border-radius: 0 20% 20% 0;
+}
+
+
+#main-pic {
+ background-image: url(./images/banner.jpg);
+ background-size: cover;
+ background-position: center;
+ grid-column: 1 / -1;
+ box-shadow: inset 2000px 0 0 0 rgba(0, 162, 0, 0.3);
+}
+
+h2 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    /* margin-bottom: 0; */
+}
+
+h3 {
+    color: #333;
+    font-size: 30px;
+    text-align: center
+}
+
+#form-container {
+ margin-top: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+}
+
+#signup-p {
+    background-color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5%;
+    margin-left: 10px;
+    box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.91);
+}
+
+
+.slider-wrap {
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slides {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 400%;
+    
+}
+
+.slides div img {
+    width: 100%;
+
+}
+
+.slides div p {
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    left: 15px;
+
+}
+
+#nav-slides {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    bottom: 30px;
+    /* justify-content: space-around; */
+   
+} 
+
+#nav-slides a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+#main-p {
+    
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    height: 100%;
+}
+
+#main-p p {
+    border-radius: 5%;
+    padding: 15px;
+    background-color: white;
+    align-self: center;
+    box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.91);
+}
+
