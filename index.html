@@ -5,10 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Party USA</title>
     <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <h1>hello world</h1>
+    <link rel="stylesheet" href="./nav.css">
 
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <img src="./images/logo.png" alt="Green letter G for Green Party Logo. Photo">
+
+            <div class="nav-box">
+                <a href="#">Home</a>
+                <a href="./about.html">About</a>
+                <a href="#">Politics</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="grid-box1">
+            <div id="main-pic">
+                <h1>The Green Party</h1>
+            </div>
+
+            <div id="form-container">
+               <h3>Join Us!</h3>
+               <form action="post">
+                   <div class="signup-container">
+                        <input id="fullname" type="text" name="fullname" placeholder="Full Name">
+                    </div>
+
+                    <div class="signup-container">
+                        <input id="email" type="email" name="email" placeholder="Email Address">
+                    </div>
+
+                    <div class="signup-container">
+                        <input id="phone" type="text" name="phone" placeholder="Phone Number">
+                    </div>
+                </form>
+
+                <p id="signup-p">We want YOU to be a leader in the movement to fight climate change, replace corporate power with democracy and economic justice for all, end mass incarceration, and stop endless war. <br><br>
+                Support Green candidates, get involved, run for public office & join us!</p>
+            </div>
+
+            <div class="pillar-slider"> <!-- the  class slides should be a grid with 400% of the parent's width. The slider wrap should have overflow: auto-->
+
+                <h2><span> THE FOUR PILLARS OF<br> THE GREEN PARTY</span></h2>
+
+                <div class="slider-wrap">
+                    <div class="slides">
+                        <div><img id="sjclip" src="./images/sjustice.png" alt="Social Justice Logo. Photo">
+                        <p>Falling wages and rising bills are hitting most of us, and the most vulnerable are hit the hardest. We demand a living wage and a real safety net. We work for universal healthcare, free higher education, human rights for all immigrants, full reproductive rights for women, human rights for all immigrants and for LGBTQs, and racial justice: Black Lives Matter!</p></div>
+
+                        <div><img id="demclip" src="./images/dem.png" alt="Democracy Logo. Photo">
+                        <p>We demand public financing of elections, open debates, and more representative voting systems. Greens will lead the opposition to the Trump-Pence agenda, and we will not comrpromise, capitulate or go along with bipartisan consensus. And we accept no corporate contributions! </p></div>
+
+                        <div><img id="peaceclip" src="./images/peace.png" alt="Peace logo. Photo">
+                        <p>Our country's long wars and worldwide military presence are immoral and unsustainable. Our military budget must be cut dramatically.</p></div>
+
+                        <div><img id="ecoclip" src="./images/eco.png" alt="Eco friendly logo. Photo">
+                        <p>The human cost of climate change is too high. We need to get off fossil fuels and on to renewable energy.</p></div>
+                        
+                    </div>
+                </div>
+
+                <div id="nav-slides">
+                    <a href="#sjclip">1</a>
+                    <a href="#demclip">2</a>
+                    <a href="#peaceclip">3</a>
+                    <a href="#ecoclip">4</a>
+                </div>
+                
+
+            </div>
+
+            <div id="main-p">
+                <p>We are grassroots activists, environmentalists, advocates for social justice, nonviolent resisters and regular citizens who’ve had enough of corporate-dominated politics. <br><br>
+                Government must be part of the solution, but when it’s controlled by the 1%, it’s part of the problem. The longer we wait for change, the harder it gets.<br><br>
+                Don’t stay home on election day, 
+                Vote green!</p>
+            </div>
+
+        </section>
+      
+    </main>
+
+    <footer>
+        Important footer stuff here. 
+    </footer>
 
 </body>
 </html>
