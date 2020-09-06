@@ -27,16 +27,19 @@ main {
 } */
 
 iframe {
+    margin-top: 10px;
     justify-self: center;
-    grid-column: 2/3;
+    grid-column-start: 2;
+    background-color: #eee;
+    
 }
 
 .about-text {
+    background-color: #eee;
     border: 1px; solid black;
     grid-column: 2/3;
     grid-row: 2;
 }
-
 
 
 
