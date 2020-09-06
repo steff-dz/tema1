@@ -18,17 +18,24 @@ main {
     height: 100vh;
     display: grid;
     grid-template-columns: 300px auto 300px;
+    grid-template-rows: 1fr 1fr;
     border: 1px solid black;
 }
 
-main div {
+/* main div {
     border: 1px solid black;
-}
+} */
 
 iframe {
     justify-self: center;
+    grid-column: 2/3;
 }
 
+.about-text {
+    border: 1px; solid black;
+    grid-column: 2/3;
+    grid-row: 2;
+}
 
 
 
