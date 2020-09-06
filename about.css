@@ -25,6 +25,9 @@ main div {
     border: 1px solid black;
 }
 
+iframe {
+    justify-self: center;
+}
 
 
 
