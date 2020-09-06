@@ -7,6 +7,7 @@ body {
     background-color: #FBF7eD;
     font-family: sans-serif;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 img {
@@ -26,10 +27,13 @@ main {
     height: 100vh;
     background-color:#eee;
     display: grid;
+    flex-direction: row;
     justify-content: center;
 }
 
+
 iframe {
     margin-top: 10px;
-    height: 50%;
+    height: 60%;
 }
+
