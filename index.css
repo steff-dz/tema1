@@ -21,7 +21,7 @@ main {
     height: 100%;
 }
 
-#grid-box1 {
+#grid-container1 {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 400px auto 400px;
