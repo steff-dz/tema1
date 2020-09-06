@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FBF7eD;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+img {
+    width: 90px;
+    margin: 2px auto 5px 2px;
+}
+
+main {
+    margin-top: 100px;
+    background-color: rgba(192, 189, 189, 0.87);
+    height: 100%;
+}
+
+.flex-container {
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    background-color:#eee;
+    display: grid;
+    justify-content: center;
+}
+
+iframe {
+    margin-top: 10px;
+    height: 50%;
+}
