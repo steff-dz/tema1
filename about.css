@@ -49,6 +49,9 @@ iframe {
     line-height: 30px;
 }
 
+div img {
+    width: 500px;
+}
 
 /* .about-text { */
    
