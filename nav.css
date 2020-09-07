@@ -34,7 +34,26 @@ nav a:hover {
 footer {
     position: sticky;
     display: grid;
-    height: auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: 200px auto 200px;
     background-color: #333;
     color: white;
+}
+
+.address {
+    grid-column-start: 3;
+    font-size: 15px;
+}
+
+.address h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+    
+}
+
+.footer-links {
+    grid-column-start: 6;
+    color: white;
+    text-decoration: none;
+
 }
