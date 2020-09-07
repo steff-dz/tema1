@@ -35,7 +35,7 @@ main {
     border: 1px solid black;
 } */
 
-iframe {
+#about-vid {
     margin-top: 110px;
     /* justify-self: center; */
     /* grid-column-start: 2; */
