@@ -41,7 +41,7 @@ footer {
 }
 
 .address {
-    grid-column-start: 3;
+    grid-column-start: 2;
     font-size: 15px;
 }
 
@@ -53,7 +53,9 @@ footer {
 
 .footer-links {
     grid-column-start: 6;
+}
+
+.footer-links > a {
     color: white;
     text-decoration: none;
-
 }
