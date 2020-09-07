@@ -33,8 +33,8 @@ nav a:hover {
 
 footer {
     position: sticky;
-    display: flex;
-    height: 200px;
+    display: grid;
+    height: auto;
     background-color: #333;
     color: white;
 }
