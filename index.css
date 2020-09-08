@@ -91,33 +91,70 @@ article {
     grid-column: 1/2;
 }
 
+#action-pic {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row: 3;
+}
+
+#action-pic > img {
+    margin-top: 20px;
+    width: 100%;
+    /* filter: opacity(80%); */
+
+}
+
 #third-box {
+    margin-top: 20px;
+    margin-bottom: 45px;
     grid-column-start: 7;
     grid-column-end: 9;
     background-color: white;
+    grid-row: 3;
+    overflow: hidden;
 }
 
 #third-box > h2 {
     font-size: 30px;
     text-align: center;
+    
 }
 
 ul {
     list-style-type: none;
     
+    
 }
 
 li {
     font-size: 20px;
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
 }
 
+#fourth-box {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4;
+    height: 400px;
+    background-color: white;
+}
 
+#fourth-box > h3{
+    font-size: 30px;
+    padding: 20px;
 
+}
 
+#fourth-box > p {
+    padding: 15px;
+}
 
-
-
+#sign-up {
+    grid-column: 3/8;
+    grid-row: 4;
+    border: 1px black solid;
+    
+}
 
 
 
