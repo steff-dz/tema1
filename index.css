@@ -143,18 +143,18 @@ input {
 
 
 #main-p {
-    
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
-    display: flex;
+    /* display: flex; */
     height: 100%;
+
 }
 
 #main-p p {
     border-radius: 5%;
     padding: 15px;
     background-color: white;
-    align-self: center;
+    /* align-self: center; */
     box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.91);
 }
 
