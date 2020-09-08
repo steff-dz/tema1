@@ -169,7 +169,7 @@ li {
 #form-container {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 300px;
 }
 
 #form-container > h3 {
@@ -184,7 +184,7 @@ li {
 
 form {
     grid-row-start: 2;
-    margin: 10px;
+    margin-top: 25px;
 }
 
 
