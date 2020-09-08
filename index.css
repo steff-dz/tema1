@@ -102,8 +102,15 @@ article {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    
+}
 
-
+li {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
 
 
 
