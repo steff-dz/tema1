@@ -24,8 +24,9 @@ main {
 #grid-container1 {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: 400px auto 400px;
-    grid-auto-rows: 400px auto;
+    grid-template-columns: repeat(4, 1fr);
+    /* 300px auto 300px; */
+    grid-auto-rows: 400px 400px auto;
     /* height: 1102px; */
    
 }
@@ -47,6 +48,29 @@ h1 {
  grid-column: 1 / -1;
  box-shadow: inset 2000px 0 0 0 rgba(0, 162, 0, 0.3);
 }
+
+
+#main-p {
+    font-size: 30px;
+    padding: 10px;
+    /* display: flex; */
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: white;
+    text-align: center;
+    line-height: 30px<
+
+}
+
+#main-p p {
+    /* border-radius: 5%; */
+    padding: 15px;
+    /* align-self: center; */
+    /* box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.91); */
+}
+
+
 
 h2 {
     color: #333;
@@ -84,7 +108,7 @@ input {
 
 #signup-p {
     background-color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
     border-radius: 5%;
     margin-left: 10px;
@@ -92,7 +116,7 @@ input {
 }
 
 
-.slider-wrap {
+/* .slider-wrap {
     width: 400px;
     overflow: hidden;
     margin: 0 auto;
@@ -126,12 +150,12 @@ input {
     justify-content: center;
     gap: 15px;
     position: relative;
-    bottom: 30px;
+    bottom: 30px; */
     /* justify-content: space-around; */
    
 } 
 
-#nav-slides a {
+/* #nav-slides a {
     text-decoration: none;
     font-size: 30px;
     color: black;
@@ -139,22 +163,5 @@ input {
     padding: 10px 15px 10px 15px;
     margin: 10px;
     border-radius: 50%;
-}
-
-
-#main-p {
-    font-size: 20px;
-    padding: 10px;
-    /* display: flex; */
-    height: 100%;
-
-}
-
-#main-p p {
-    border-radius: 5%;
-    padding: 15px;
-    background-color: white;
-    /* align-self: center; */
-    box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.91);
-}
+} */
 
