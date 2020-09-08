@@ -156,6 +156,15 @@ li {
     
 }
 
+#sign-up > h3 {
+    font-size: 40px;
+    background-color: #00A95C;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    width: 600px;
+    margin: auto;
+}
 
 
 
