@@ -1,0 +1,109 @@
+FROM THE FIRST INDEX VERSION:
+
+         <!-- <div id="form-container">
+               <h3>Join Us!</h3>
+               <form action="post">
+                   <div class="signup-container">
+                        <input id="fullname" type="text" name="fullname" placeholder="Full Name">
+                    </div>
+
+                    <div class="signup-container">
+                        <input id="email" type="email" name="email" placeholder="Email Address">
+                    </div>
+
+                    <div class="signup-container">
+                        <input id="phone" type="text" name="phone" placeholder="Phone Number">
+                    </div>
+                </form>
+
+                <p id="signup-p">We want YOU to be a leader in the movement to fight climate change, replace corporate power with democracy and economic justice for all, end mass incarceration, and stop endless war. <br><br>
+                Support Green candidates, get involved, run for public office & join us!</p>
+            </div> -->
+
+            <!-- <div class="pillar-slider"> 
+            
+
+                <h2><span> THE FOUR PILLARS OF<br> THE GREEN PARTY</span></h2>
+
+                <div class="slider-wrap">
+                    <div class="slides">
+                        <div><img id="sjclip" src="./images/sjustice.png" alt="Social Justice Logo. Photo">
+                        <p>Falling wages and rising bills are hitting most of us, and the most vulnerable are hit the hardest. We demand a living wage and a real safety net. We work for universal healthcare, free higher education, human rights for all immigrants, full reproductive rights for women, human rights for all immigrants and for LGBTQs, and racial justice: Black Lives Matter!</p></div>
+
+                        <div><img id="demclip" src="./images/dem.png" alt="Democracy Logo. Photo">
+                        <p>We demand public financing of elections, open debates, and more representative voting systems. Greens will lead the opposition to the Trump-Pence agenda, and we will not comrpromise, capitulate or go along with bipartisan consensus. And we accept no corporate contributions! </p></div>
+
+                        <div><img id="peaceclip" src="./images/peace.png" alt="Peace logo. Photo">
+                        <p>Our country's long wars and worldwide military presence are immoral and unsustainable. Our military budget must be cut dramatically.</p></div>
+
+                        <div><img id="ecoclip" src="./images/eco.png" alt="Eco friendly logo. Photo">
+                        <p>The human cost of climate change is too high. We need to get off fossil fuels and on to renewable energy.</p></div>
+                        
+                    </div>
+                </div>
+
+                <div id="nav-slides">
+                    <a href="#sjclip">1</a>
+                    <a href="#demclip">2</a>
+                    <a href="#peaceclip">3</a>
+                    <a href="#ecoclip">4</a>
+                </div>
+                
+
+            </div> -->
+
+  <!-- the  class slides should be a grid with 400% of the parent's width. The slider wrap should have overflow: auto -->
+
+
+
+BELOW IS THE FIRST INDEX VERSION CSS: 
+
+/* .slider-wrap {
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slides {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 400%;
+    
+}
+
+.slides div img {
+    width: 100%;
+
+}
+
+.slides div p {
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    left: 15px;
+
+}
+
+#nav-slides {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    bottom: 30px; */
+    /* justify-content: space-around; */
+   
+} 
+
+/* #nav-slides a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    border-radius: 50%;
+} */
+
