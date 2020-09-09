@@ -5,6 +5,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
     
 }
 
@@ -16,6 +17,22 @@ nav {
     border-radius: 10% 10% 0 0;
     
 }
+
+@keyframes logospin {
+    to {transform: rotate(360deg)}
+}
+
+#logo {
+    width: 90px;
+    margin: 2px auto 5px 2px;
+    /* transform: rotate(360deg); */
+    /* transition: transform 2s; */
+    animation-name: logospin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ 
+}
+
 
 nav a {
     color: white;
