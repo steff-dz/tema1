@@ -155,7 +155,8 @@ li {
     border: 1px black solid;
     background-color: #333;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto;
 }
 
 /* #sign-up > h3 {
@@ -186,6 +187,17 @@ li {
     margin: 10px 10px 20px 10px;
     color: white;
     text-align: center;
+}
+
+form {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#options {
+    background-color: grey;
+    grid-column: 2/-1;
+    grid-row: 1/-1;
 }
 
 label {
