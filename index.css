@@ -157,13 +157,14 @@ li {
 }
 
 #sign-up > h3 {
-    font-size: 40px;
+    font-size: 35px;
     background-color: #00A95C;
     border-radius: 25px;
     padding: 10px;
     color: white;
-    width: 600px;
-    margin: auto;
+    width: 400px;
+    margin: 0 auto 10px;
+    text-align: center;
 }
 
 #form-container  {
@@ -171,8 +172,9 @@ li {
 
 }
 
-
-
+label {
+    display: block;
+}
 
 
 
