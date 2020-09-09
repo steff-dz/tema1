@@ -91,49 +91,56 @@
         </div>
 
         <div id="sign-up">
-
-            <h3>Join Us Today!</h3>
-
             <div id="form-container">
-                <form action="">
-                    <label for="name">Name:
-                        <input type="text" id="firstname" name="name" placeholder="First">
-                        <input type="text" id="lastname" name="name" placeholder="Last">
-                    </label>
+            <h3>Join Today!</h3>
+            <form action="">
+                    <fieldset id="personal-info">
+                        <label for="name">Name:
+                            <input type="text" id="firstname" name="name" placeholder="First">
+                            <input type="text" id="lastname" name="name" placeholder="Last">
+                        </label>
 
-                    <label for="birthday">Birthday:
-                        <input type="date" id="birthday" name="birthday">
-                    </label>
+                        <label for="birthday">Birthday:
+                            <input type="date" id="birthday" name="birthday">
+                        </label>
+                    </fieldset>
                     <!-- <input type="submit"> -->
 
-                    <label for="address">Address:
-                        <input type="text" id="address" name="address" placeholder="Home Address">
-                        <input type="text" id="city" name="city" placeholder="City / Town">
-                        <select name="state" id="state">
-                            <option value="">State/Territory</option>
-                            <option value="">Alabama</option>
-                            <option value="">Alaska</option>
-                            <option value="">Arizona</option>
-                            <option value="">Arkansas</option>
-                            <option value="">California</option>
-                            <option value="">Colorado</option>
-                            <option value="">Connecticut</option>
-                            <option value="">Delaware</option>
-                            <option value="">Florida</option>
-                        </select>
-                        <input type="text" id="zipcode" name="zipcode" placeholder="Postal/Zip Code">
-                    </label>
-             
+                    <fieldset id="address">
+                        <label for="address">Address:
+                            
+                            <input type="text" id="address" name="address" placeholder="Home Address">
+
+                            <input type="text" id="city" name="city" placeholder="City / Town"><br>
+
+                            <input type="text" id="zipcode" name="zipcode" placeholder="Postal/Zip Code"> <br>
+
+                            <select name="state" id="state">
+                                <option value="">State/Territory</option>
+                                <option value="">Alabama</option>
+                                <option value="">Alaska</option>
+                                <option value="">Arizona</option>
+                                <option value="">Arkansas</option>
+                                <option value="">California</option>
+                                <option value="">Colorado</option>
+                                <option value="">Connecticut</option>
+                                <option value="">Delaware</option>
+                                <option value="">Florida</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+             <fieldset id="contact">
                     <label for="email">Email:
                         <input type="email" id="email"
                          name="email" placeholder="Email">
                     </label>
 
-                    <label for="phone">Contact Number:
-                        <input type="phone" id="phone"
+                    <label for="phone">Phone:
+                        <input type="tel" id="phone"
                          name="phone" placeholder="Phone number">
                     </label>
-                
+                </fieldset>
 
                 </form>
             </div>
@@ -141,15 +148,6 @@
 
 
         </section>
-
-
-
-
-
-
-
-
-
 
         <!-- Find out how attach the other html sheet for a response page after submit button is pressed. -->
       

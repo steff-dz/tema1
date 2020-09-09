@@ -153,10 +153,12 @@ li {
     grid-column: 3/8;
     grid-row: 4;
     border: 1px black solid;
+    background-color: #333;
+    /* display: flex; */
     
 }
 
-#sign-up > h3 {
+/* #sign-up > h3 {
     font-size: 35px;
     background-color: #00A95C;
     border-radius: 25px;
@@ -164,24 +166,60 @@ li {
     color: white;
     width: 400px;
     margin: 0 auto 10px;
-    text-align: center;
+    text-align: center; */
 }
 
 #form-container  {
+    padding: 10px;
+    background-color: #333;
+    height: 100%;
     display: flex;
+}
 
+#sign-up h3 {
+    font-size: 35px;
+    margin: 10px 10px 20px 10px;
+    color: white;
+    text-align: center;
 }
 
 label {
     display: block;
+    color: white;
+}
+
+input {
+    display: inline-block;
+    
+}
+
+ fieldset {
+    border: none;
+}
+
+#personal-info input[type=text] {
+    margin-left: 16px;
+    margin-bottom: 5px;
 }
 
 
+fieldset #address {
+    display: block;
+}
 
+#address input, select {
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
 
+#contact input[type=email] {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
 
-
-
+#contact input[type=tel] {
+    margin-left: 13px;
+}
 
 
 
