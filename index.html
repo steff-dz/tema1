@@ -93,41 +93,40 @@
             <!-- <div id="form-container"> -->
             <h3>Join Today!</h3>
             <form action="">
-                    <fieldset id="personal-info">
-                        <label for="name">Name:
-                            <input type="text" id="firstname" name="name" placeholder="First">
-                            <input type="text" id="lastname" name="name" placeholder="Last">
-                        </label>
+                <fieldset id="personal-info">
+                    <label for="name">Name:
+                        <input type="text" id="firstname" name="name" placeholder="First">
+                        <input type="text" id="lastname" name="name" placeholder="Last">
+                    </label>
 
-                        <label for="birthday">Birthday:
-                            <input type="date" id="birthday" name="birthday">
-                        </label>
-                    </fieldset>
-                    <!-- <input type="submit"> -->
+                    <label for="birthday">Birthday:
+                        <input type="date" id="birthday" name="birthday">
+                    </label>
+                </fieldset>
 
-                    <fieldset id="address">
-                        <label for="address">Address:
+                <fieldset id="address">
+                    <label for="address">Address:
                             
-                            <input type="text" id="address" name="address" placeholder="Home Address">
+                        <input type="text" id="address" name="address" placeholder="Home Address">
 
-                            <input type="text" id="city" name="city" placeholder="City / Town"><br>
+                        <input type="text" id="city" name="city" placeholder="City / Town"><br>
 
-                            <input type="text" id="zipcode" name="zipcode" placeholder="Postal/Zip Code"> <br>
+                        <input type="text" id="zipcode" name="zipcode" placeholder="Postal/Zip Code"> <br>
 
-                            <select name="state" id="state">
-                                <option value="">State/Territory</option>
-                                <option value="">Alabama</option>
-                                <option value="">Alaska</option>
-                                <option value="">Arizona</option>
-                                <option value="">Arkansas</option>
-                                <option value="">California</option>
-                                <option value="">Colorado</option>
-                                <option value="">Connecticut</option>
-                                <option value="">Delaware</option>
-                                <option value="">Florida</option>
-                            </select>
-                        </label>
-                    </fieldset>
+                        <select name="state" id="state">
+                            <option value="">State/Territory</option>
+                            <option value="">Alabama</option>
+                            <option value="">Alaska</option>
+                            <option value="">Arizona</option>
+                            <option value="">Arkansas</option>
+                            <option value="">California</option>
+                            <option value="">Colorado</option>
+                            <option value="">Connecticut</option>
+                            <option value="">Delaware</option>
+                            <option value="">Florida</option>
+                        </select>
+                    </label>
+                </fieldset>
 
              <fieldset id="contact">
                     <label for="email">Email:
@@ -140,12 +139,20 @@
                          name="phone" placeholder="Phone number">
                     </label>
                 </fieldset>
-           
-                <!-- Need to add submit button & at least one radio button; like "join our mailing list?" or "interested in volunteering?" -->
+                
+            <div id="subscribe">
+                <label for="subscribe_yes_no">Do you want to subscribe to our mailing list?</label>
+                    <p>
+                        <input type="radio" name="subscribe_yes_no" value="Yes" checked>Yes</input>
+                    </p>
+                    <p>
+                        <input type="radio" name="subscribe_yes_no" value="No">No</input>
+                    </p>      
+            </div>
 
                 </form>
-                <div id="options"> stuff 1 and stuff 2</div>
-
+    <!-- MAKE THE FORM INTO A GRID!!!!!!! -->
+                <div id="color-box"></div>
             <!-- </div> -->
         </div>
 
