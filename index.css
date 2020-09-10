@@ -71,6 +71,13 @@ article {
     /* border: 1px solid black; */
 }
 
+article p {
+    display: block;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
 #pillar-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
