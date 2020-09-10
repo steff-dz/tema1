@@ -239,23 +239,28 @@ label {
     padding: 0 10px 0 10px;
 }
 
-#subscribe label[for=subscribe_yes_no] {
-    font-size: 20px;
-    text-align: center;
+#subscribe p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+
 }
 
-#subscribe p {
+#subscribe label {
     border: 1px solid black;
     width: 100px;
-    display: inline
-    margin: 0 auto;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
 
-    
 }
 
-/* #subscribe input[type=radio] {
-    
-} */
+#subscribe input[type=radio] {
+    display: none;
+}
+
 
 #button {
     grid-column-start: 3;
