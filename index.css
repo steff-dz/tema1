@@ -5,8 +5,8 @@
 body {
     margin: 0;
     background-color: #FBF7eD;
-    font-family: sans-serif;
     height: auto;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* img {
