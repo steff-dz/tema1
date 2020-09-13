@@ -57,25 +57,41 @@ footer {
     color: white;
 }
 
-.address {
+#footer-address {
     grid-column-start: 2;
     font-size: 15px;
 }
 
-.address h4 {
+#footer-address h4 {
     font-size: 18px;
     margin-bottom: 0;
     
 }
 
-.footer-links {
+#footer-links {
     margin-top: 20px;
     grid-column-start: 5;
     
 }
 
-.footer-links > a {
+#footer-links > a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+
+#footer-icons {
+    grid-column-start: 6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 90px 90px;
+    padding-right: 15px;
+ 
+}
+
+#footer-icons img {
+    width: 50px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 0;
 }
