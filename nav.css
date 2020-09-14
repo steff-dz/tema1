@@ -86,12 +86,18 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 90px 90px;
     padding-right: 15px;
+    justify-items: center;
+    align-items: center;
  
+}
+
+#footer-icons a {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
 }
 
 #footer-icons img {
     width: 50px;
-    align-self: flex-end;
-    justify-self: flex-end;
-    margin: 0;
 }
