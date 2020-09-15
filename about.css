@@ -16,7 +16,7 @@ img {
 }
 
 main {
-    /* margin-top: 100px; */
+    
     margin: 0 auto;
     background-color: #eee;
     height: 100vh;
@@ -26,19 +26,12 @@ main {
     flex-wrap: wrap;
     overflow: scroll;
     justify-content: center;
-    /* grid-template-columns: 300px auto 300px;
-    grid-template-rows: 1fr 1fr; */
-    /* border: 1px solid black; */
 }
 
-/* main div {
-    border: 1px solid black;
-} */
 
 #about-vid {
+
     margin-top: 110px;
-    /* justify-self: center; */
-    /* grid-column-start: 2; */
 
 }
 
@@ -52,11 +45,6 @@ main {
 div img {
     width: 500px;
 }
-
-/* .about-text { */
-   
-    /* grid-column: 2/3;
-    grid-row: 2; */
 
 
 
