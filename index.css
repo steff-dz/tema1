@@ -299,3 +299,14 @@ button:hover {
 }
 
 
+/* Attempt for Responsive-ness below: */
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+
+    #banner-pic {
+        height: 50%;
+    }
+}
