@@ -9,11 +9,6 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* img {
-    width: 90px;
-    margin: 2px auto 5px 2px;
-} */
-
 
 main {
     margin-top: 100px;
@@ -40,7 +35,7 @@ h1 {
 }
 
 
-#main-pic {
+#banner-pic {
  background-image: url(./images/banner.jpg);
  background-size: cover;
  background-position: center;
@@ -49,7 +44,7 @@ h1 {
 }
 
 
-#first-box {
+#summary-box {
     font-size: 20px;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -60,7 +55,7 @@ h1 {
 
 }
 
-#first-box p {
+#summary-box p {
     padding: 15px;
 }
 
@@ -69,7 +64,6 @@ article {
     grid-column-end: 8;
     grid-row: 2;
     text-align: center;
-    /* border: 1px solid black; */
 }
 
 article p {
@@ -103,20 +97,20 @@ article p {
     grid-column: 1/2;
 }
 
-#action-pic {
+#cta-pic {
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row: 3;
 }
 
-#action-pic > img {
+#cta-pic > img {
     margin-top: 20px;
     width: 100%;
     filter: grayscale(10%);
 
 }
 
-#third-box {
+#gpvalues-box {
     margin-top: 20px;
     margin-bottom: 45px;
     grid-column-start: 7;
@@ -127,7 +121,7 @@ article p {
     font-size: 20px;
 }
 
-#third-box > h2 {
+#gpvalues-box > h2 {
     font-size: 30px;
     text-align: center;
     
@@ -144,7 +138,7 @@ li {
     margin: 0 0 10px 0;
 }
 
-#fourth-box {
+#whyus-box {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 4;
@@ -153,13 +147,13 @@ li {
     background-color: white;
 }
 
-#fourth-box > h3{
+#whyus-box > h3{
     font-size: 30px;
     text-align: center;
     
 }
 
-#fourth-box > p {
+#whyus-box > p {
     padding: 15px;
     font-size: 20px;
     line-height: 30px;
@@ -182,7 +176,7 @@ li {
     grid-column: 1/span 2;
    text-align: center;
 }
-#color-box1 {
+#color-box {
     background-color: grey;
     grid-column-start: 3;
     color: white;
@@ -192,7 +186,7 @@ li {
 
 }
 
-#color-box1 p{
+#color-box p{
     margin-top: 50px;
 }
 
@@ -257,14 +251,6 @@ label {
     padding: 0 10px 0 10px;
 }
 
-/* #subscribe p { */
-  /* color: white;
-  text-align: center;
-  font-size: 20px;
-  padding: 0 10px 0 10px; */
-
-
-
 input[type=radio] + label {
     width: 100px;
     margin: 20px;
@@ -312,68 +298,4 @@ button:hover {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-(OLD CODE FROM PRE-FORM GRID BELOW)
-
-
-#subscribe {
-    grid-column-start: 2;
-    grid-row-start: 1;
-}
-
-
-label {
-    display: block;
-    color: white;
-}
-
-input {
-    display: inline-block;
-    
-}
-
- fieldset {
-    border: none;
-}
-
-#personal-info input[type=text] {
-    margin-left: 16px;
-    margin-bottom: 5px;
-
-}
-
-
-fieldset #address {
-    display: block;
-}
-
-#address input, select {
-    margin-left: 70px;
-    margin-bottom: 5px;
-}
-
-#contact input[type=email] {
-    margin-left: 20px;
-    margin-bottom: 5px;
-}
-
-#contact input[type=tel] {
-    margin-left: 13px;
-} */
 
