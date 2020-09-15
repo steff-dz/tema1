@@ -14,7 +14,7 @@ nav {
     align-items: flex-end;
     gap: 50px;
     padding-right: 70px;
-    border-radius: 10% 10% 0 0;
+    /* border-radius: 10% 10% 0 0; */
     
 }
 
@@ -24,7 +24,7 @@ nav {
 
 .logo {
     width: 90px;
-    margin: 2px auto 5px 2px;
+    margin: 2px auto 5px 10px;
     animation-name: logospin;
     animation-duration: 2s;
     animation-iteration-count: infinite;
