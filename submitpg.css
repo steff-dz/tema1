@@ -1,0 +1,17 @@
+body {
+    background-color: #00A95C;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
