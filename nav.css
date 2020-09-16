@@ -105,16 +105,24 @@ footer {
 
 @media only screen and (max-width: 600px) {
     nav a {
-        font-size: 3em;
+        font-size: 2.5em;
+        
     }
 
     .nav-box {
         gap: 2px;
         font-size: 10px;
-        padding-right: 0;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0;
+        
     }
 
     .logo {
-        margin: 2px 5px 5px 5px;
+        margin: 2px 8px 5px 5px;
+        height: 70px;
+        width: 70px;
+        align-self: center;
+
     }
 }

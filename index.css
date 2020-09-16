@@ -67,7 +67,7 @@ article {
 }
 
 article p {
-    display: block;
+    /* display: block; */
     padding: 10px;
     display: flex;
     margin: 0 auto;
@@ -315,7 +315,7 @@ button:hover {
 
     h1 {
         width: 100px;
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     #banner-pic {
@@ -332,6 +332,7 @@ button:hover {
     #summary-box {
         border: 1px solid black;
         margin: 0;
+        line-height: 20px;
         
     
     }
@@ -340,6 +341,7 @@ button:hover {
         margin: 0;
         padding: 0;
         font-size: 1em;
+        
     }
    
 
