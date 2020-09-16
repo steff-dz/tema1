@@ -339,6 +339,7 @@ button:hover {
 
     #pillar-container {
         padding-bottom: 5px;
+        background-color: white;
     }
 
     #pillar-container h2 {
@@ -351,8 +352,13 @@ button:hover {
         display: none;
     }  
 
+    #cta-pic {
+        
+    }
+
     #cta-pic > img {
-        height: 90%;
+        height: 100%;
+        margin: 0;
     }
 
     #gpvalues-box  {
