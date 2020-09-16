@@ -107,4 +107,8 @@ footer {
     nav a {
         font-size: 2em;
     }
+
+    .nav-box {
+        gap: 2px;
+    }
 }
