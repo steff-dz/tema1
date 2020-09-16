@@ -356,7 +356,9 @@ button:hover {
     }
 
     #gpvalues-box  {
-        
+        width: 100%;
+        font-size: 1em;
+        line-height: 18px;
     }
 
     #whyus-box {
