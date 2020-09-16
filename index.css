@@ -337,37 +337,23 @@ button:hover {
         
     }
 
-    article {
-        display: none;
-    }
-
-    /* #pillar-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flexstart;
-        height: auto;
-        
+    #pillar-container {
+        padding-bottom: 5px;
     }
 
     #pillar-container h2 {
         font-size: 3.5em;
-        text-align: left;
+        grid-column: 1/-1;
+        margin: 5px;
     }
-
-    #pillar-container div {
-        width: 150px;
-        height: 150px;
-    }
-
-    #pillar-container img {
-        width: 100%;
-
-    } */
-
 
     #pillar-container p {
         display: none;
     }  
+
+    #cta-pic > img {
+        height: 90%;
+    }
 
 
     #gpvalues-box  {
@@ -382,9 +368,7 @@ button:hover {
         display: none;
     }
 
-    #cta-pic {
-        display: none;
-    }
+   
 
 
 
