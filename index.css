@@ -325,12 +325,12 @@ button:hover {
     }
 
 
-    #summary-box {
+    #summary-box #whyus-box {
         margin: 0;
         line-height: 18px;
     }
 
-    #summary-box p {
+    #summary-box #whyus-box p {
         margin: 0;
         padding: 0;
         font-size: 1em;
@@ -359,10 +359,11 @@ button:hover {
         width: 100%;
         font-size: 1em;
         line-height: 18px;
+        margin: 0;
     }
 
-    #whyus-box {
-        display: none;
+    #whyus-box h3 {
+        margin: 0;
     }
 
     #sign-up {
