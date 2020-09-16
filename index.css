@@ -330,7 +330,6 @@ button:hover {
 
 
     #summary-box {
-        border: 1px solid black;
         margin: 0;
         line-height: 20px;
         
@@ -343,11 +342,41 @@ button:hover {
         font-size: 1em;
         
     }
-   
 
     article {
+    display: flex;
+    }
+
+    #pillar-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    #pillar-container h2 {
+        font-size: 5em;
+        width: 350px;
+    }
+
+    #pillar-container div {
+        width: 200px;
+        height: 200px;
+    }
+
+    #pillar-container img {
+        width: 100%;
+    }
+
+    #pillar-container p {
         display: none;
     }
+
+
+
+
+
+
 
     #gpvalues-box  {
         display: none;
@@ -370,22 +399,3 @@ button:hover {
     
 }
 
- /* #grid-container {
-        margin-top: 0;
-        display: grid;
-        height: 100%;
-        width: 100vw;
-        grid-column: auto;
-        grid-template-rows: repeat(7, 30%);
-        grid-gap: none;
-        
-    }
-
-    #summary-box {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        align-self: center;
-        width: 400px;
-        height: 30%;
-        overflow: scroll;
-    } */
