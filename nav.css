@@ -125,4 +125,35 @@ footer {
         align-self: center;
 
     }
+
+    /* footer below */
+    footer {
+        display: flex;
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+
+    #footer-address {
+        width: 70%;
+    }
+
+    #footer-icons a {
+        width: 40%;
+        height: 40%;
+    }
+
+    #footer-icons img{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
