@@ -105,10 +105,11 @@ footer {
 
 @media only screen and (max-width: 600px) {
     nav a {
-        font-size: 2em;
+        font-size: 3.5em;
     }
 
     .nav-box {
         gap: 2px;
+        font-size: 10px;
     }
 }
