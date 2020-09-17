@@ -19,20 +19,18 @@ main {
     
     margin: 0 auto;
     background-color: #eee;
-    height: 100vh;
+    min-height: 0;
     width: 60%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: scroll;
+    overflow: auto;
     justify-content: center;
 }
 
 
 #about-vid {
-
     margin-top: 110px;
-
 }
 
 
@@ -55,12 +53,22 @@ div img {
         font-size: 10px;
     }
 
+    main {
+        width: 90%;
+    }
 
+    iframe {
+        width: fit-content;
+    }
 
+    .image-box {
+        width: 100%;
+    }
 
+    main img {
+        width: 100%;
 
-
-
+    }
 
 
 
