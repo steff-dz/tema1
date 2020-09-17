@@ -85,11 +85,4 @@ img {
     margin: 100px auto;
 }
 
-
-.container:hover .dropdown-content {
-    overflow: scroll;
-}
-
-
-
 }
