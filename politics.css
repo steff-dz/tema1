@@ -68,6 +68,28 @@ img {
 .container:hover .dropdown-content {
     display: block;
     position: absolute;
-    overflow: scroll;
     
+}
+
+/* RWD below */
+
+@media only screen and (max-width: 600px) {
+
+#grid-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+
+
+.container:hover .dropdown-content {
+    overflow: scroll;
+}
+
+
+
 }
