@@ -40,6 +40,14 @@ main {
     justify-content: center;
 }
 
+#abortion {
+    display: none;
+}
+
+#lgbtq {
+    display: none;
+}
+
 span {
     position: absolute;
     background-color: white;
