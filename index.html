@@ -91,13 +91,79 @@
                 <p>Our political system features numerous anti-democratic policies that are specifically designed to prevent the most oppressed sectors of our society from participating in the electoral process. Third parties can also force progress on important political issues.</p>
             </div>
 
-            <div id="sign-up">
-                <h3>Join Today!</h3>
+            
+                <div id="sign-up">
+                    <form action="./submitpg.html">
+                    <!-- <div id="titleContainer"></div> -->
+                        <h3>Join Today!</h3>
 
-                <div id="color-box"> 
-                    <p>Do you want to subscribe to our mailing list?</p>
+                    
+                    <fieldset id="personal-info">
+                        <label for="name">Name:
+                            <input type="text" id="firstname" name="name" placeholder="Firstname">
+                            <input type="text" id="lastname" name="name" placeholder="Lastname">
+                        </label>
+
+                        <label for="birthday">Birthday:
+                            <input type="date" id="birthday" name="birthday">
+                        </label>
+                    </fieldset>
+
+                    <fieldset id="addressField">
+                        <label for="address">Address:
+                            <div id="addressContainer">
+                                <input type="text" id="address" name="address" placeholder="Home Address">
+                                <input type="text" id="city" name="city" placeholder="City / Town"><br>
+                                <input type="text" id="zipcode" name="zipcode" placeholder="Postal/Zip Code"><br>
+                                <select name="state" id="state">
+                                    <option value="">State/Territory</option>
+                                    <option value="">Alabama</option>
+                                    <option value="">Alaska</option>
+                                    <option value="">Arizona</option>
+                                    <option value="">Arkansas</option>
+                                    <option value="">California</option>
+                                    <option value="">Colorado</option>
+                                    <option value="">Connecticut</option>
+                                    <option value="">Delaware</option>
+                                    <option value="">Florida</option>
+                                </select>
+                            </div>
+                           
+                        </label>
+                    </fieldset>
+
+                    <fieldset id="contact">
+                        <label for="email">Email:
+                            <input type="email" id="email"
+                            name="email" placeholder="Email">
+                        </label>
+                    </fieldset>
                 </div>
 
+                <div id="subscribeContainer">
+                    <p>Do you want to subscribe to our mailing list?</p>
+
+                    <div id="subscribe">
+                        <input type="radio" id="yes" name="subscribe_yes_no" value="Yes" checked>
+                        <label for="yes">Yes</label>
+            
+                        <input type="radio" id="no" name="subscribe_yes_no" value="No">
+                        <label for="no">No</label>               
+                     </div>
+
+                    <button>SUBMIT</button>
+                  
+                </div>
+            </form>
+       
+
+
+
+            <!-- <div id="sign-up">
+                <div id="titleContainer">
+                    <h3>Join Today!</h3>
+                </div>
+                
                 <form action="./submitpg.html">
 
                     <fieldset id="personal-info">
@@ -141,20 +207,24 @@
                             name="phone" placeholder="Phone number">
                         </label>
                     </fieldset>
-                
-                    <div id="subscribe">
+
+                    <div id="subscribeContainer">
+                        <p>Do you want to subscribe to our mailing list?</p>
+
+                        <div id="subscribe">
                             <input type="radio" id="yes" name="subscribe_yes_no" value="Yes" checked>
                             <label for="yes">Yes</label>
                 
                             <input type="radio" id="no" name="subscribe_yes_no" value="No">
                             <label for="no">No</label>               
-                    </div>
+                         </div>
 
-                    <div id="button">
-                        <button>SUBMIT</button>
+                        <div id="button"><button>SUBMIT</button>
+                        </div>
                     </div>
-                </form>
-            </div>
+                </div>
+            </form> -->
+            
 
         </section>
 
