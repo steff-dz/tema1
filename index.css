@@ -188,9 +188,6 @@ label {
 	margin-left: 4.5%;
 }
 
-#addressField {
-}
-
 #addressContainer {
 	display: flex;
 	flex-wrap: wrap;
@@ -216,7 +213,6 @@ select {
 #subscribeContainer {
 	grid-column: 6/8;
 	grid-row: 4;
-	border: 1px solid black;
 	background-color: grey;
 	display: flex;
 	flex-direction: column;
@@ -270,162 +266,6 @@ button {
 button:hover {
 	transform: scaleX(1.05);
 }
-
-/* #sign-up {
-	grid-column: 3/8;
-	grid-row: 4;
-	background-color: #333;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 100px auto;
-	height: 400px;
-} */
-
-/* #titleContainer {
-	margin: 10px 10px 20px 10px; 
-	color: white;
-	grid-column: 1/span 3;
-	border: 1px solid white;
-	display: flex;
-	width: 100%;
-	align-items: center;
-	justify-content: space-between;
-}
-
-#titleContainer h3 {
-	font-size: 35px;
-	width: fit-content;
-	height: fit-content;
-	margin-left: 20%;
-}
-
-#signupTxt {
-	border: 1px solid white;
-	height: 100%;
-	padding: 6px;
-	background-color: grey;
-}
-
-#color-box {
-	background-color: grey;
-	grid-column-start: 3;
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	padding: 0 10px 0 10px;
-}
-
-#color-box p {
-	margin-top: 50px;
-}
-
-form {
-	grid-column: 1/span 3;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 75px 1fr 1fr;
-	width: 100%;
-	height: 100%;
-}
-
-fieldset {
-	border: none;
-}
-
-label {
-	color: white;
-	display: block;
-}
-
-#personal-info {
-	grid-column: 1/3;
-	grid-row-start: 1;
-}
-#personal-info input[type=text] {
-	margin-left: 16px;
-	margin-bottom: 5px;
-}
-
-#address {
-	grid-column-start: 1;
-	grid-row-start: 2;
-	display: block;
-}
-
-#address input,
-select {
-	margin-left: 70px;
-	margin-bottom: 5px;
-}
-
-#contact {
-	grid-column: 1;
-	grid-row: 3;
-}
-
-#contact input[type=email] {
-	margin-left: 18px;
-	margin-bottom: 5px;
-}
-
-#contact input[type=tel] {
-	margin-left: 13px;
-}
-
-#subscribe {
-	grid-column-start: 3;
-	grid-row: 1 /3;
-	background-color: grey;
-	padding: 0 10px 0 10px;
-}
-
-input[type=radio] + label {
-	width: 100px;
-	margin: 20px;
-	padding: 5px;
-	display: inline-block;
-	text-align: center;
-	background-color: #333;
-	border-radius: 50px;
-	box-shadow: 5px 6px 17px -1px rgba(0, 0, 0, 0.95);
-	margin-top: 50px;
-}
-
-input[type=radio] {
-	display: none;
-}
-
-input[type=radio]:checked + label {
-	background-color: #00a95c;
-	transition: 0.5s;
-}
-
-#button {
-	grid-column-start: 3;
-	grid-row-start: 3;
-	background-color: grey;
-	padding: 0;
-}
-
-button {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	position: relative;
-	bottom: 75px;
-	left: 180px;
-	background-color: #00a95c;
-	color: white;
-	font-size: 25px;
-	border: none;
-	box-shadow: 5px 6px 17px -1px rgba(0, 0, 0, 0.95);
-}
-
-button:hover {
-	transform: scaleX(1.05);
-} */
-
-/* Attempt for Responsive-ness below: */
 
 @media only screen and (max-width: 600px) {
 	* {
